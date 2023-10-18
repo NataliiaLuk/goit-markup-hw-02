@@ -1,3 +1,106 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway'
+    
+    /* text colors */
+     
+     --main-cl: #757575;
+     --accent-cl: #2196F3;
+     --white-cl: #FFFFFF;
+     --title-cl: #212121;
+
+     /* background colors */
+     --dark-bg: #2F303A;
+     --light-bg: #F5F4FA;
+     --accent-bg: #2196F3;
+}
+
+
+
+
+
 body {
     font-family: 'Roboto';
+}
+/* header styles */
+
+.logo {
+    color: var(--accent-cl);
+    
+        font-family: var(--secondary-font)
+        font-size: 26px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.78px;
+        text-decoration: none;
+}
+
+.black-logo {
+    color: #000000;
+}
+
+.white-logo {
+    color: var(--white-cl);
+}
+
+.navigation-list {
+        list-style: none;
+}
+
+.navigation-item {
+    color: var(--title-cl);
+    
+        font-size: 14px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.28px;
+        text-decoration: none;
+}
+
+.navigation-item:hover,
+.navigation-item:focus {
+    color: var(--accent-cl);
+}
+
+.email {
+    color: var(--accent-cl);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.28px;
+}
+
+.phone {
+    color:var(--main-cl);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.28px;
+}
+
+/* secrion hero */
+.hero {
+    background-color: var(--dark-bg);
+}
+.hero-title {
+    color: var(--white-cl);
+        text-align: center;
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 1.36;
+        letter-spacing: 2.64px;
+        text-transform: uppercase;
+}
+
+.hero-btn {
+    color: var(--white-cl);
+    background-color: var(--accent-bg);
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.62;
+        letter-spacing: 0.48px;
+        border-radius: 4px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
