@@ -13,25 +13,25 @@
 </head>
 <body>
     <header class="header">
-        <nav>
-            <a class="logo" href="/">WebStudio</a>
-            <ul>
-                <li><a href="./index.html">Студія</a></li>
-                <li><a href="./portfolio.html">Портфоліо</a></li>
-                <li><a href="#">Контакти</a></li>
+        <nav class="navigation">
+            <a class="logo" href="/">Web<span class="black-logo">Studio</span></a>
+            <ul class="list">
+                <li><a class="navigation-item" href="./index.html">Студія</a></li>
+                <li><a class="navigation-item active" href="./portfolio.html">Портфоліо</a></li>
+                <li><a class="navigation-item" href="#">Контакти</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="list">
+            <li><a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="phone" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
 
     <main>
-        <section>
+        <section class="gallery">
             <!-- Прихований заголовок -->
-            <h1>Галерея</h1>
-            <ul class="btn-list">
+            <h1 class="hidden-title">Галерея</h1>
+            <ul class="filter list">
                 <li><button class="btn active" type="button" onclick="filterSelection('all')">Усі</button></li>
                 <li><button class="btn" type="button" onclick="filterSelection('websites')">Веб-сайти</button></li>
                 <li><button class="btn" type="button" onclick="filterSelection('apps')">Додатки</button></li>
@@ -39,59 +39,59 @@
                 <li><button class="btn" type="button" onclick="filterSelection('marketing')">Маркетинг</button></li>
                 </ul>
 
-            <ul class="gallery">
+            <ul class="cards list">
                 <li class="filter-websites">
-                    <a href="#"><img src="./img/gallery/techno.jpg" alt="Сайт" width="370">
-                    <h2>Технокряк</h2>
-                    <p>Веб-сайт</p>
+                    <a class="cards-link" href="#"><img src="./img/gallery/techno.jpg" alt="Сайт" width="370">
+                    <h2 class="cards-title">Технокряк</h2>
+                    <p class="cards-descr">Веб-сайт</p>
                     </a>
                 </li>
                 <li class="filter-design">
-                    <a href="#"><img src="./img/gallery/poster.jpg" alt="Постер змагань" width="370">
-                    <h2>Постер New Orlean vs Golden Star</h2>
-                    <p>Дизайн</p>
+                    <a class="cards-link" href="#"><img src="./img/gallery/poster.jpg" alt="Постер змагань" width="370">
+                    <h2 class="cards-title">Постер New Orlean vs Golden Star</h2>
+                    <p class="cards-descr">Дизайн</p>
                     </a>
                 </li>
                 <li class="filter-apps">
-                    <a href="#"><img src="./img/gallery/restaurant.jpg" alt="Емблема ресторану" width="370">
-                    <h2>Ресторан Seafood</h2>
-                    <p>Додаток</p>
+                    <a class="cards-link" href="#"><img src="./img/gallery/restaurant.jpg" alt="Емблема ресторану" width="370">
+                    <h2 class="cards-title">Ресторан Seafood</h2>
+                    <p class="cards-descr">Додаток</p>
                     </a>
                 </li>
                 <li class="filter-marketing">
-                    <a href="#"><img src="./img/gallery/prime.jpg" alt="Навушники" width="370">
-                    <h2>Проєкт Prime</h2>
-                    <p>Маркетинг</p>
+                    <a class="cards-link" href="#"><img src="./img/gallery/prime.jpg" alt="Навушники" width="370">
+                    <h2 class="cards-title">Проєкт Prime</h2>
+                    <p class="cards-descr">Маркетинг</p>
                     </a>
                 </li>
                 <li class="filter-apps">
-                    <a href="#"><img src="./img/gallery/boxes.jpg" alt="Коробки" width="370">
-                    <h2>Проєкт Boxes</h2>
-                    <p>Проєкт Boxes</p>
+                    <a class="cards-link" href="#"><img src="./img/gallery/boxes.jpg" alt="Коробки" width="370">
+                    <h2 class="cards-title">Проєкт Boxes</h2>
+                    <p class="cards-descr">Проєкт Boxes</p>
                     </a>
                 </li>
                 <li class="filter-websites">
-                    <a href="#"><img src="./img/gallery/inspiration.jpg" alt="Сайт" width="370">
-                    <h2>Inspiration has no Borders</h2>
-                    <p>Веб-сайт</p>
+                    <a class="cards-link" href="#"><img src="./img/gallery/inspiration.jpg" alt="Сайт" width="370">
+                    <h2 class="cards-title">Inspiration has no Borders</h2>
+                    <p class="cards-descr">Веб-сайт</p>
                     </a>
                 </li>
                 <li class="filter-design">
-                    <a href="#"><img src="./img/gallery/limited.jpg" alt="Журнал" width="370">
-                    <h2>Видання Limited Edition</h2>
-                    <p>Дизайн</p>
+                    <a class="cards-link" href="#"><img src="./img/gallery/limited.jpg" alt="Журнал" width="370">
+                    <h2 class="cards-title">Видання Limited Edition</h2>
+                    <p class="cards-descr">Дизайн</p>
                     </a>
                 </li>
                 <li class="filter-marketing">
-                    <a href="#"><img src="./img/gallery/lab.jpg" alt="Етикетка" width="370">
-                    <h2>Проєкт LAB</h2>
-                    <p>Маркетинг</p>
+                    <a class="cards-link" href="#"><img src="./img/gallery/lab.jpg" alt="Етикетка" width="370">
+                    <h2 class="cards-title">Проєкт LAB</h2>
+                    <p class="cards-descr">Маркетинг</p>
                     </a>
                 </li>
                 <li class="filter-apps">
-                    <a href="#"><img src="./img/gallery/growing.jpg" alt="Додаток на моніторі" width="370">
-                    <h2>Growing Business</h2>
-                    <p>Додаток</p>
+                    <a class="cards-link" href="#"><img src="./img/gallery/growing.jpg" alt="Додаток на моніторі" width="370">
+                    <h2 class="cards-title">Growing Business</h2>
+                    <p class="cards-descr">Додаток</p>
                     </a>
                 </li>
 
@@ -102,14 +102,14 @@
 
     </main>
 
-    <footer class="footer">
-        <a class="logo" href="/">WebStudio</a>
-        <address>
-            м. Київ, пр-т Лесі Українки, 26
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
-        </address>
-    </footer>
+   <footer class="footer">
+      <a class="logo" href="/">Web<span class="white-logo">Studio</span></a>
+      <address class="address">
+        м. Київ, пр-т Лесі Українки, 26
+        <a class="footer-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="footer-phone" href="tel:+380961111111">+38 096 111 11 11</a>
+      </address>
+ </footer>
 
     
 </body>
